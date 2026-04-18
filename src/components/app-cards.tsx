@@ -5,6 +5,7 @@ type App = {
   url: string | null
   description: string
   status: AppStatus
+  screenshot?: string
 }
 
 const APPS: App[] = [
@@ -13,6 +14,7 @@ const APPS: App[] = [
     url: 'https://activate.sagetools.dev',
     description: 'AI-powered career and business intelligence for independent professionals.',
     status: 'live',
+    screenshot: '/screenshots/intelligence.png',
   },
   {
     name: 'PathForward Quantum',
@@ -65,6 +67,14 @@ function AppCard({ app }: { app: App }) {
       className="relative flex flex-col rounded-2xl p-6 md:p-8"
       style={{ backgroundColor: 'rgba(255,255,255,0.04)', border: '1px solid rgba(255,255,255,0.08)' }}
     >
+      {app.screenshot && (
+        <img
+          src={app.screenshot}
+          alt={`${app.name} screenshot`}
+          className="mb-4 w-full rounded-xl object-cover"
+          style={{ height: 140 }}
+        />
+      )}
       <span
         className="absolute right-4 top-4 rounded-full px-2.5 py-0.5 text-[11px] font-semibold uppercase tracking-wider"
         style={{ backgroundColor: s.bg, color: s.color }}
