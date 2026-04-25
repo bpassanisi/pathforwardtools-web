@@ -5,6 +5,7 @@ type App = {
   url: string | null
   description: string
   status: AppStatus
+  icon?: string
   screenshot?: string
 }
 
@@ -14,6 +15,7 @@ const APPS: App[] = [
     url: 'https://activate.sagetools.dev',
     description: 'AI-powered career and business intelligence for independent professionals.',
     status: 'live',
+    icon: '/brand/icons/intelligence.svg',
     screenshot: '/screenshots/intelligence.png',
   },
   {
@@ -21,18 +23,21 @@ const APPS: App[] = [
     url: null,
     description: 'Built for solopreneurs and independent builders.',
     status: 'beta-soon',
+    icon: '/brand/icons/quantum.svg',
   },
   {
     name: 'PathForward for Men',
     url: null,
     description: 'Personal development tools built for the modern man.',
     status: 'beta-soon',
+    icon: '/brand/icons/for-men.svg',
   },
   {
     name: 'PathForward Mind',
     url: null,
     description: 'Mental clarity and tools for your inner work.',
     status: 'beta-soon',
+    icon: '/brand/icons/mind.svg',
   },
   {
     name: 'PathForward Clear',
@@ -40,6 +45,7 @@ const APPS: App[] = [
     description:
       'Navigate life after a criminal record. Expungement, rights restoration, housing, and employment — all in one place.',
     status: 'in-build',
+    icon: '/brand/icons/clear.svg',
   },
   {
     name: 'PathForward Family',
@@ -81,6 +87,16 @@ function AppCard({ app }: { app: App }) {
       >
         {s.label}
       </span>
+
+      {app.icon && !app.screenshot && (
+        <img
+          src={app.icon}
+          alt=""
+          aria-hidden="true"
+          className="mb-4 rounded-xl"
+          style={{ width: 48, height: 48 }}
+        />
+      )}
 
       <h3 className="pr-24 text-base font-semibold" style={{ color: 'var(--color-text-on-dark)' }}>
         {app.name}
