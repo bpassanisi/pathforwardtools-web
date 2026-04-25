@@ -52,6 +52,21 @@ const APPS: App[] = [
     url: null,
     description: "Preserve your family's stories, values, and legacy for generations to come.",
     status: 'research',
+    icon: '/brand/icons/family.svg',
+  },
+  {
+    name: 'PathForward Brain',
+    url: null,
+    description: 'AI-powered knowledge capture and organization. Talk to it. It handles the rest.',
+    status: 'in-build',
+    icon: '/brand/icons/brain.svg',
+  },
+  {
+    name: 'PathForward CommandDeck',
+    url: null,
+    description: 'Unified dashboard and control center for power users managing tools and workflows.',
+    status: 'in-build',
+    icon: '/brand/icons/commanddeck.svg',
   },
 ]
 
