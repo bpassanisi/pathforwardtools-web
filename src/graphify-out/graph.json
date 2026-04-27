@@ -1,0 +1,280 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "test-setup.ts",
+      "file_type": "code",
+      "source_file": "/Users/bpassanisi/BNProjects/pathforwardtools-web/src/test-setup.ts",
+      "source_location": "L1",
+      "id": "users_bpassanisi_bnprojects_pathforwardtools_web_src_test_setup_ts",
+      "community": 6,
+      "norm_label": "test-setup.ts"
+    },
+    {
+      "label": "layout.tsx",
+      "file_type": "code",
+      "source_file": "/Users/bpassanisi/BNProjects/pathforwardtools-web/src/app/layout.tsx",
+      "source_location": "L1",
+      "id": "users_bpassanisi_bnprojects_pathforwardtools_web_src_app_layout_tsx",
+      "community": 0,
+      "norm_label": "layout.tsx"
+    },
+    {
+      "label": "RootLayout()",
+      "file_type": "code",
+      "source_file": "/Users/bpassanisi/BNProjects/pathforwardtools-web/src/app/layout.tsx",
+      "source_location": "L25",
+      "id": "layout_rootlayout",
+      "community": 0,
+      "norm_label": "rootlayout()"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "/Users/bpassanisi/BNProjects/pathforwardtools-web/src/app/page.tsx",
+      "source_location": "L1",
+      "id": "users_bpassanisi_bnprojects_pathforwardtools_web_src_app_page_tsx",
+      "community": 1,
+      "norm_label": "page.tsx"
+    },
+    {
+      "label": "Page()",
+      "file_type": "code",
+      "source_file": "/Users/bpassanisi/BNProjects/pathforwardtools-web/src/app/page.tsx",
+      "source_location": "L8",
+      "id": "page_page",
+      "community": 1,
+      "norm_label": "page()"
+    },
+    {
+      "label": "hero.tsx",
+      "file_type": "code",
+      "source_file": "/Users/bpassanisi/BNProjects/pathforwardtools-web/src/components/hero.tsx",
+      "source_location": "L1",
+      "id": "users_bpassanisi_bnprojects_pathforwardtools_web_src_components_hero_tsx",
+      "community": 2,
+      "norm_label": "hero.tsx"
+    },
+    {
+      "label": "Hero()",
+      "file_type": "code",
+      "source_file": "/Users/bpassanisi/BNProjects/pathforwardtools-web/src/components/hero.tsx",
+      "source_location": "L3",
+      "id": "hero_hero",
+      "community": 2,
+      "norm_label": "hero()"
+    },
+    {
+      "label": "mission.tsx",
+      "file_type": "code",
+      "source_file": "/Users/bpassanisi/BNProjects/pathforwardtools-web/src/components/mission.tsx",
+      "source_location": "L1",
+      "id": "users_bpassanisi_bnprojects_pathforwardtools_web_src_components_mission_tsx",
+      "community": 3,
+      "norm_label": "mission.tsx"
+    },
+    {
+      "label": "Mission()",
+      "file_type": "code",
+      "source_file": "/Users/bpassanisi/BNProjects/pathforwardtools-web/src/components/mission.tsx",
+      "source_location": "L1",
+      "id": "mission_mission",
+      "community": 3,
+      "norm_label": "mission()"
+    },
+    {
+      "label": "app-cards.tsx",
+      "file_type": "code",
+      "source_file": "/Users/bpassanisi/BNProjects/pathforwardtools-web/src/components/app-cards.tsx",
+      "source_location": "L1",
+      "id": "users_bpassanisi_bnprojects_pathforwardtools_web_src_components_app_cards_tsx",
+      "community": 7,
+      "norm_label": "app-cards.tsx"
+    },
+    {
+      "label": "site-footer.tsx",
+      "file_type": "code",
+      "source_file": "/Users/bpassanisi/BNProjects/pathforwardtools-web/src/components/site-footer.tsx",
+      "source_location": "L1",
+      "id": "users_bpassanisi_bnprojects_pathforwardtools_web_src_components_site_footer_tsx",
+      "community": 8,
+      "norm_label": "site-footer.tsx"
+    },
+    {
+      "label": "attribution-bridge.tsx",
+      "file_type": "code",
+      "source_file": "/Users/bpassanisi/BNProjects/pathforwardtools-web/src/components/attribution-bridge.tsx",
+      "source_location": "L1",
+      "id": "users_bpassanisi_bnprojects_pathforwardtools_web_src_components_attribution_bridge_tsx",
+      "community": 4,
+      "norm_label": "attribution-bridge.tsx"
+    },
+    {
+      "label": "AttributionBridge()",
+      "file_type": "code",
+      "source_file": "/Users/bpassanisi/BNProjects/pathforwardtools-web/src/components/attribution-bridge.tsx",
+      "source_location": "L3",
+      "id": "attribution_bridge_attributionbridge",
+      "community": 4,
+      "norm_label": "attributionbridge()"
+    },
+    {
+      "label": "founder-strip.tsx",
+      "file_type": "code",
+      "source_file": "/Users/bpassanisi/BNProjects/pathforwardtools-web/src/components/founder-strip.tsx",
+      "source_location": "L1",
+      "id": "users_bpassanisi_bnprojects_pathforwardtools_web_src_components_founder_strip_tsx",
+      "community": 5,
+      "norm_label": "founder-strip.tsx"
+    },
+    {
+      "label": "FounderStrip()",
+      "file_type": "code",
+      "source_file": "/Users/bpassanisi/BNProjects/pathforwardtools-web/src/components/founder-strip.tsx",
+      "source_location": "L1",
+      "id": "founder_strip_founderstrip",
+      "community": 5,
+      "norm_label": "founderstrip()"
+    },
+    {
+      "label": "hero.test.tsx",
+      "file_type": "code",
+      "source_file": "/Users/bpassanisi/BNProjects/pathforwardtools-web/src/components/__tests__/hero.test.tsx",
+      "source_location": "L1",
+      "id": "users_bpassanisi_bnprojects_pathforwardtools_web_src_components_tests_hero_test_tsx",
+      "community": 9,
+      "norm_label": "hero.test.tsx"
+    },
+    {
+      "label": "page.test.tsx",
+      "file_type": "code",
+      "source_file": "/Users/bpassanisi/BNProjects/pathforwardtools-web/src/components/__tests__/page.test.tsx",
+      "source_location": "L1",
+      "id": "users_bpassanisi_bnprojects_pathforwardtools_web_src_components_tests_page_test_tsx",
+      "community": 10,
+      "norm_label": "page.test.tsx"
+    },
+    {
+      "label": "attribution-bridge.test.tsx",
+      "file_type": "code",
+      "source_file": "/Users/bpassanisi/BNProjects/pathforwardtools-web/src/components/__tests__/attribution-bridge.test.tsx",
+      "source_location": "L1",
+      "id": "users_bpassanisi_bnprojects_pathforwardtools_web_src_components_tests_attribution_bridge_test_tsx",
+      "community": 11,
+      "norm_label": "attribution-bridge.test.tsx"
+    },
+    {
+      "label": "mission.test.tsx",
+      "file_type": "code",
+      "source_file": "/Users/bpassanisi/BNProjects/pathforwardtools-web/src/components/__tests__/mission.test.tsx",
+      "source_location": "L1",
+      "id": "users_bpassanisi_bnprojects_pathforwardtools_web_src_components_tests_mission_test_tsx",
+      "community": 12,
+      "norm_label": "mission.test.tsx"
+    },
+    {
+      "label": "app-cards.test.tsx",
+      "file_type": "code",
+      "source_file": "/Users/bpassanisi/BNProjects/pathforwardtools-web/src/components/__tests__/app-cards.test.tsx",
+      "source_location": "L1",
+      "id": "users_bpassanisi_bnprojects_pathforwardtools_web_src_components_tests_app_cards_test_tsx",
+      "community": 13,
+      "norm_label": "app-cards.test.tsx"
+    },
+    {
+      "label": "founder-strip.test.tsx",
+      "file_type": "code",
+      "source_file": "/Users/bpassanisi/BNProjects/pathforwardtools-web/src/components/__tests__/founder-strip.test.tsx",
+      "source_location": "L1",
+      "id": "users_bpassanisi_bnprojects_pathforwardtools_web_src_components_tests_founder_strip_test_tsx",
+      "community": 14,
+      "norm_label": "founder-strip.test.tsx"
+    },
+    {
+      "label": "site-footer.test.tsx",
+      "file_type": "code",
+      "source_file": "/Users/bpassanisi/BNProjects/pathforwardtools-web/src/components/__tests__/site-footer.test.tsx",
+      "source_location": "L1",
+      "id": "users_bpassanisi_bnprojects_pathforwardtools_web_src_components_tests_site_footer_test_tsx",
+      "community": 15,
+      "norm_label": "site-footer.test.tsx"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/bpassanisi/BNProjects/pathforwardtools-web/src/app/layout.tsx",
+      "source_location": "L25",
+      "weight": 1.0,
+      "_src": "users_bpassanisi_bnprojects_pathforwardtools_web_src_app_layout_tsx",
+      "_tgt": "layout_rootlayout",
+      "source": "users_bpassanisi_bnprojects_pathforwardtools_web_src_app_layout_tsx",
+      "target": "layout_rootlayout",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/bpassanisi/BNProjects/pathforwardtools-web/src/app/page.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_src": "users_bpassanisi_bnprojects_pathforwardtools_web_src_app_page_tsx",
+      "_tgt": "page_page",
+      "source": "users_bpassanisi_bnprojects_pathforwardtools_web_src_app_page_tsx",
+      "target": "page_page",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/bpassanisi/BNProjects/pathforwardtools-web/src/components/hero.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_src": "users_bpassanisi_bnprojects_pathforwardtools_web_src_components_hero_tsx",
+      "_tgt": "hero_hero",
+      "source": "users_bpassanisi_bnprojects_pathforwardtools_web_src_components_hero_tsx",
+      "target": "hero_hero",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/bpassanisi/BNProjects/pathforwardtools-web/src/components/mission.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_src": "users_bpassanisi_bnprojects_pathforwardtools_web_src_components_mission_tsx",
+      "_tgt": "mission_mission",
+      "source": "users_bpassanisi_bnprojects_pathforwardtools_web_src_components_mission_tsx",
+      "target": "mission_mission",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/bpassanisi/BNProjects/pathforwardtools-web/src/components/attribution-bridge.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_src": "users_bpassanisi_bnprojects_pathforwardtools_web_src_components_attribution_bridge_tsx",
+      "_tgt": "attribution_bridge_attributionbridge",
+      "source": "users_bpassanisi_bnprojects_pathforwardtools_web_src_components_attribution_bridge_tsx",
+      "target": "attribution_bridge_attributionbridge",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/bpassanisi/BNProjects/pathforwardtools-web/src/components/founder-strip.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_src": "users_bpassanisi_bnprojects_pathforwardtools_web_src_components_founder_strip_tsx",
+      "_tgt": "founder_strip_founderstrip",
+      "source": "users_bpassanisi_bnprojects_pathforwardtools_web_src_components_founder_strip_tsx",
+      "target": "founder_strip_founderstrip",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": []
+}
